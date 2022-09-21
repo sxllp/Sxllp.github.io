@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://sxllp.github.io/</id>
+    <title>Gridea</title>
+    <updated>2022-09-21T10:25:39.670Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="http://sxllp.github.io/"/>
+    <link rel="self" href="http://sxllp.github.io/atom.xml"/>
+    <subtitle>&lt;h1&gt;庙堂既高，箫鼓老也&lt;/h1&gt;</subtitle>
+    <logo>http://sxllp.github.io/images/avatar.png</logo>
+    <icon>http://sxllp.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[关于出现错误"connect ECONNREFUSED 127.0.0.1:443"的解决方法]]></title>
+        <id>http://sxllp.github.io/post/guan-yu-chu-xian-cuo-wu-connect-econnrefused-127001443de-jie-jue-fang-fa/</id>
+        <link href="http://sxllp.github.io/post/guan-yu-chu-xian-cuo-wu-connect-econnrefused-127001443de-jie-jue-fang-fa/">
+        </link>
+        <updated>2022-09-18T08:19:45.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="http://sxllp.github.io//post-images/1663489686228.jpg" alt="" loading="lazy"><br>
+CMD命令行ping github.com失败，得知是代理问题。</p>
+<p>我们寻找一个新的代理ip</p>
+<p>http://ping.chinaz.com/github.com<br>
+<img src="http://sxllp.github.io//post-images/1663489695854.jpg" alt="" loading="lazy"></p>
+<p>选择一个响应较快的IP，将其添加到host文件末尾</p>
+<p>C:\Windows\System32\drivers\etc</p>
+<figure data-type="image" tabindex="1"><img src="http://sxllp.github.io//post-images/1663489829221.png" alt="" loading="lazy"></figure>
+<p>再次连接，成功。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国社会各阶级的分析]]></title>
+        <id>http://sxllp.github.io/post/zhong-guo-she-hui-ge-jie-ji-de-fen-xi/</id>
+        <link href="http://sxllp.github.io/post/zhong-guo-she-hui-ge-jie-ji-de-fen-xi/">
+        </link>
+        <updated>2022-09-17T15:02:04.000Z</updated>
+        <content type="html"><![CDATA[<p>1925/12/1🀄️<br>
+当时党内存在两种倾向，第一种以陈独秀为代表，只注意同国民党合作，忘记了农民，这是右倾错误。第二种，一张国焘为代表，只代表工人运动，同样忘记了农民，这是右倾错误。这两种机会主义都感觉自己力量不足，而不知道到何处去寻找力量，到何处去取得广大的同盟军。毛泽东指出中国无产阶级的最广大和最忠实的同盟军是农民。</p>
+<h3>各阶级统计</h3>
+<h4>1.地主阶级和买办主义</h4>
+<p>在经济落后的半殖民地的中国，地主阶级和买办阶级完全是国际资产阶级的附庸，其生存和发展，是附属于帝国主义的。这些阶级代表中国最落后的和最反动的生产关系，阻碍中国生产力的发展。他们和中国革命的目的完全不相容。</p>
+<h4>2.中产阶级</h4>
+中产阶级。这个阶级代表中国城乡资本主义的生产关系。中产阶级主要是指民族资产阶级，他们对于中国革命具有矛盾的态度：他们在受外资打击、军阀压迫感觉痛苦时，需要革命，赞成反帝国主义反军阀的革命运动；但是当着革命在国内有本国无产阶级的勇猛参加，在国外有国际无产阶级的积极援助，对于其欲达到大资产阶级地位的阶级的发展感觉到威胁时，他们又怀疑革命。
+他们反对以阶级斗争学说解释国民党的民生主义，他们反对国民党联俄和容纳共产党⑷及左派分子。
+<h4>3.小资产阶级</h4>
+小资产阶级。如自耕农⑺，手工业主，小知识阶层——学生界、中小学教员、小员司、小事务员、小律师，小商人等都属于这一类。这一个阶级，在人数上，在阶级性上，都值得大大注意。自耕农和手工业主所经营的，都是小生产的经济。
+<h4>4.半无产阶级</h4>
+<p>半无产阶级。此处所谓半无产阶级，包含：（一）绝大部分半自耕农⑽，（二）贫农，（三）小手工业者，（四）店员⑾，（五）小贩等五种。绝大部分半自耕农和贫农是农村中一个数量极大的群众。</p>
+<h4>5.无产阶级</h4>
+工业无产阶级人数虽不多，却是中国新的生产力的代表者，是近代中国最进步的阶级，做了革命运动的领导力量。
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何实现b站弹幕不挡人物功能]]></title>
+        <id>http://sxllp.github.io/post/ru-he-shi-xian-b-zhan-dan-mu-bu-dang-ren-wu-gong-neng/</id>
+        <link href="http://sxllp.github.io/post/ru-he-shi-xian-b-zhan-dan-mu-bu-dang-ren-wu-gong-neng/">
+        </link>
+        <updated>2022-09-15T01:27:21.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p><img src="http://sxllp.github.io//post-images/1663220720979.png" alt="" loading="lazy"><br>
+原理与实现:<br>
+原理:CSS3的mask-image属性(遮罩属性)<br>
+mask-image:url();<br>
+值为图片的url，该属性的作用是将一张含有透明部分的图片，该图片的非透明部分不显示，透明部分至于dom元素前，成为遮罩。显示的是背景颜色而不是原图片的不透明部分。</p>
+<p>实现：<br>
+1.模拟弹幕情况<br>
+<img src="http://sxllp.github.io//post-images/1663221254279.png" alt="" loading="lazy"></p>
+<pre><code>&lt;div class=&quot;video&quot; style=&quot;width: 1920px; height: 1000px; position: relative;&quot;&gt;
+&lt;p class=&quot;top one&quot;&gt;这是第一句sentence&lt;/p&gt;
+&lt;p class=&quot;top two&quot; &gt;这是第二句sentence&lt;/p&gt;
+&lt;p class=&quot;top three&quot;&gt;这是第三句sentence&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+.top {
+font-size: 30px;
+top: 200px;
+position: absolute;
+}
+
+.one{
+right: 200px;
+}
+
+.two{
+right: 500px;
+top: 300px;
+}
+
+.three{
+
+right: 950px;
+}
+</code></pre>
+<p>2.覆盖遮罩图片<br>
+使用一张含透明图片,为p所在的父元素添加样式<br>
+<img src="http://sxllp.github.io//post-images/1663221315903.png" alt="" loading="lazy"></p>
+<pre><code>.video{
+
+-webkit-mask-image: url('background.png');
+-webkit-mask-size: 1900px 900px;
+background-color: brown;
+}
+</code></pre>
+<p>效果如下(设置了背景颜色为红棕色)<br>
+<img src="http://sxllp.github.io//post-images/1663221265157.png" alt="" loading="lazy"></p>
+<p>PS:<br>
+我们能看到，在css中我不是用的mask-image，而是-webkit-mask-image,那是因为浏览器的用户代理UA为：<br>
+User-Agent:<br>
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7271 SLBChan/103<br>
+内核是Chrome和Safari，需要加上-webkit-前缀进行适应。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>http://sxllp.github.io/post/hello-gridea/</id>
+        <link href="http://sxllp.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
