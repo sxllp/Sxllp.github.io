@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title> 计算机协会建站部讲座 | Gridea</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://sxllp.github.io//favicon.ico?v=1685175773467">
+<link rel="stylesheet" href="https://sxllp.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="讲座主题
+echarts数据可视化的基本使用
+内容概括
+本次讲座将从数据可视的概念与使用说起，并粗略介绍前端三件套的基本使用，而后讲解echarts的基础知识，介绍其常用的图表类型及其配置方法。我们将以实际案例为主，演示如何使用echart..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://sxllp.github.io/">
+        <img src="https://sxllp.github.io//images/avatar.png?v=1685175773467" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/sxllp?tab=repositories" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <h1>庙堂既高，箫鼓老也</h1>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://sxllp.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title"> 计算机协会建站部讲座</h2>
+            <div class="post-date">2023-05-26</div>
+            
+            <div class="post-content" v-pre>
+              <h3>讲座主题</h3>
+<p>echarts数据可视化的基本使用</p>
+<h3>内容概括</h3>
+<p>本次讲座将从数据可视的概念与使用说起，并粗略介绍前端三件套的基本使用，而后讲解echarts的基础知识，介绍其常用的图表类型及其配置方法。我们将以实际案例为主，演示如何使用echarts绘制漂亮的图表，并探讨如何根据需求自定义图表的样式和交互效果。<br>
+ECharts 是一个非常流行的开源可视化图表库，具有简单易用、功能丰富、配置灵活的特点。在本次讲座中，我们将首先从数据可视的概念和意义出发，介绍前端开发的基本知识，进而讲解 ECharts 的基本概念和使用方法。通过引入实际案例，我们将演示如何使用 ECharts 快速创建不同类型的图表，并探讨如何根据需求自定义图表的样式和交互效果。 这些案例将帮助学员熟悉 ECharts 的基本特性和 API 使用，同时进一步掌握数据可视化技术的实践思路。</p>
+<h2>主要内容</h2>
+<h4>1.什么是数据可视化？</h4>
+数据可视化是将大量数据呈现为图表、图形或其他易于理解、易于解释的可视化形式的过程。数据通常以数字、文本或图像的形式出现，并需要使用工具和技术将其转换为可视形式。
+通过将数据可视化，人们可以更容易地识别模式、趋势、异常或关系，从而更好地理解数据和做出决策。这种方式也可以减少数据分析的时间和成本。
+数据可视化的方法有很多，包括表格、条形图、折线图、散点图、热力图、地图、气泡图、漏斗图等。每种方法都有其适用性和优缺点。需要根据数据类型和目标受众选择最佳方法。
+<h4>2.数据可视化使用范围</h4>
+数据可视化的应用场景非常广泛，可以用于任何需要理解和解释数据的领域。
+商业分析，科学研究，医疗保健等多种领域，都可以利用数据可视化，对数据进行诠释，从而获得我们需要的结论。
+<p>防疫地图，商品价格涨跌宏图</p>
+<h3>3.使用echarts实现数据可视化</h3>
+<p>由百度开发，基于 JavaScript 的开源可视化图表库。</p>
+<h4>如何使用</h4>
+准备工具
+vscode
+<p>准备插件</p>
+<p>前置知识<br>
+1.html结构-div容器<br>
+2.css样式-已经集成在js文件中<br>
+3.js行为<br>
+demo</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!--  -->
+    <style>
+        /* 实现需要的样式与动画等等 */
+<pre><code>    #root{
+        width: 300px;
+        height: 300px;
+        background-color: aqua;
+    }
+&lt;/style&gt;
+</code></pre>
+<!--  -->
+</head>
+<body>
+    <!--  -->
+    <div id="root"></div>
+    <!-- 储存绘制图像的容器 -->
+    <!--  -->
+<pre><code>&lt;script&gt;
+
+    /* 我们真正需要用心写的，只有js交互部分 */
+    let demo=document.querySelector('#root');
+   /*  demo.on('click',function(){
+        alert('点击事件触发');
+    }) */
+    demo.onclick=function(){
+        alert('666')
+    }
+&lt;/script&gt;
+</code></pre>
+</body>
+</html>
+<h4>最终任务</h4>
+使用echarts，实现一个简单的柱状图。
+<p>1.指定一个具有长宽的容器(div)<br>
+2.引入echarts.js文件<br>
+echarts.init('元素节点','主题')<br>
+3.初始化echarts实例<br>
+4.配置内容</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://sxllp.github.io/post/guan-yu-chu-xian-cuo-wu-connect-econnrefused-127001443de-jie-jue-fang-fa/">
+                  <h3 class="post-title">
+                    关于出现错误&#34;connect ECONNREFUSED 127.0.0.1:443&#34;的解决方法
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>

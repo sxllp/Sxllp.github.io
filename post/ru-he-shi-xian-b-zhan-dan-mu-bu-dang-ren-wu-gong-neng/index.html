@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>如何实现b站弹幕不挡人物功能 | Gridea</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://sxllp.github.io//favicon.ico?v=1685175773467">
+<link rel="stylesheet" href="https://sxllp.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="
+
+原理与实现:
+原理:CSS3的mask-image属性(遮罩属性)
+mask-image:url();
+值为图片的url，该属性的作用是将一张含有透明部分的图片，该图片的非透明部分不显示，透明部分至于dom元素前，成为遮罩。显示的是背景..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://sxllp.github.io/">
+        <img src="https://sxllp.github.io//images/avatar.png?v=1685175773467" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/sxllp?tab=repositories" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <h1>庙堂既高，箫鼓老也</h1>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://sxllp.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">如何实现b站弹幕不挡人物功能</h2>
+            <div class="post-date">2022-09-15</div>
+            
+            <div class="post-content" v-pre>
+              <!-- more -->
+<p><img src="https://sxllp.github.io//post-images/1663220720979.png" alt="" loading="lazy"><br>
+原理与实现:<br>
+原理:CSS3的mask-image属性(遮罩属性)<br>
+mask-image:url();<br>
+值为图片的url，该属性的作用是将一张含有透明部分的图片，该图片的非透明部分不显示，透明部分至于dom元素前，成为遮罩。显示的是背景颜色而不是原图片的不透明部分。</p>
+<p>实现：<br>
+1.模拟弹幕情况<br>
+<img src="https://sxllp.github.io//post-images/1663221254279.png" alt="" loading="lazy"></p>
+<pre><code>&lt;div class=&quot;video&quot; style=&quot;width: 1920px; height: 1000px; position: relative;&quot;&gt;
+&lt;p class=&quot;top one&quot;&gt;这是第一句sentence&lt;/p&gt;
+&lt;p class=&quot;top two&quot; &gt;这是第二句sentence&lt;/p&gt;
+&lt;p class=&quot;top three&quot;&gt;这是第三句sentence&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+.top {
+font-size: 30px;
+top: 200px;
+position: absolute;
+}
+
+.one{
+right: 200px;
+}
+
+.two{
+right: 500px;
+top: 300px;
+}
+
+.three{
+
+right: 950px;
+}
+</code></pre>
+<p>2.覆盖遮罩图片<br>
+使用一张含透明图片,为p所在的父元素添加样式<br>
+<img src="https://sxllp.github.io//post-images/1663221315903.png" alt="" loading="lazy"></p>
+<pre><code>.video{
+
+-webkit-mask-image: url('background.png');
+-webkit-mask-size: 1900px 900px;
+background-color: brown;
+}
+</code></pre>
+<p>效果如下(设置了背景颜色为红棕色)<br>
+<img src="https://sxllp.github.io//post-images/1663221265157.png" alt="" loading="lazy"></p>
+<p>PS:<br>
+我们能看到，在css中我不是用的mask-image，而是-webkit-mask-image,那是因为浏览器的用户代理UA为：<br>
+User-Agent:<br>
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7271 SLBChan/103<br>
+内核是Chrome和Safari，需要加上-webkit-前缀进行适应。</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://sxllp.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>

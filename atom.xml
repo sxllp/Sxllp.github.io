@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sxllp.github.io/</id>
+    <title>Gridea</title>
+    <updated>2023-05-27T08:22:55.175Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sxllp.github.io/"/>
+    <link rel="self" href="https://sxllp.github.io/atom.xml"/>
+    <subtitle>&lt;h1&gt;庙堂既高，箫鼓老也&lt;/h1&gt;</subtitle>
+    <logo>https://sxllp.github.io/images/avatar.png</logo>
+    <icon>https://sxllp.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[同步失败解决方法]]></title>
+        <id>https://sxllp.github.io/post/tong-bu-shi-bai-jie-jue-fang-fa/</id>
+        <link href="https://sxllp.github.io/post/tong-bu-shi-bai-jie-jue-fang-fa/">
+        </link>
+        <updated>2023-05-27T08:03:43.000Z</updated>
+        <content type="html"><![CDATA[<p>修改代理<img src="https://sxllp.github.io//post-images/1685174650956.png" alt="" loading="lazy"><br>
+.<img src="https://sxllp.github.io//post-images/1685174656847.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gridea使用教程]]></title>
+        <id>https://sxllp.github.io/post/gridea-shi-yong-jiao-cheng/</id>
+        <link href="https://sxllp.github.io/post/gridea-shi-yong-jiao-cheng/">
+        </link>
+        <updated>2023-05-27T07:16:53.000Z</updated>
+        <content type="html"><![CDATA[<p>1.注册github，设置里面找到</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[建站部]]></title>
+        <id>https://sxllp.github.io/post/5/</id>
+        <link href="https://sxllp.github.io/post/5/">
+        </link>
+        <updated>2023-05-27T03:23:25.000Z</updated>
+        <content type="html"><![CDATA[<p><a name="zcbdy"></a></p>
+<h3 id="讲座主题">讲座主题</h3>
+<p>💻echarts数据可视化的基本使用<br>
+<a name="fF02S"></a></p>
+<h3 id="内容概括">内容概括</h3>
+<p>本次讲座将从数据可视的概念与使用说起，并粗略介绍前端三件套的基本使用，而后讲解echarts的基础知识，介绍其常用的图表类型及其配置方法。我们将以实际案例为主，演示如何使用echarts绘制漂亮的图表，并探讨如何根据需求自定义图表的样式和交互效果。<br />ECharts 是一个非常流行的开源可视化图表库，具有简单易用、功能丰富、配置灵活的特点。在本次讲座中，我们将首先从数据可视的概念和意义出发，介绍前端开发的基本知识，进而讲解 ECharts 的基本概念和使用方法。通过引入实际案例，我们将演示如何使用 ECharts 快速创建不同类型的图表，并探讨如何根据需求自定义图表的样式和交互效果。 这些案例将帮助学员熟悉 ECharts 的基本特性和 API 使用，同时进一步掌握数据可视化技术的实践思路。</p>
+<p><a name="E4ElB"></a></p>
+<h2 id="主要内容">主要内容</h2>
+<p><a name="lHGcp"></a></p>
+<h5 id="1什么是数据可视化">1.什么是数据可视化？</h5>
+<p>数据可视化是**<em>将大量数据呈现为图表、图形或其他易于理解、易于解释的可视化形式的过程</em>**。数据通常以数字、文本或图像的形式出现，并需要使用工具和技术将其转换为可视形式。<br />通过将数据可视化，人们可以更容易地识别模式、趋势、异常或关系，从而更好地理解数据和做出决策。这种方式也可以减少数据分析的时间和成本。<br />数据可视化的方法有很多，包括表格、条形图、折线图、散点图、热力图、地图、气泡图、漏斗图等。每种方法都有其适用性和优缺点。需要根据数据类型和目标受众选择最佳方法。<br>
+<a name="e4sbF"></a></p>
+<h5 id="2数据可视化使用范围">2.数据可视化使用范围</h5>
+<p>数据可视化的应用场景非常广泛，可以用于任何需要理解和解释数据的领域。<br />商业分析，科学研究，医疗保健等多种领域，都可以利用数据可视化，<strong>对数据进行诠释，从而获得我们需要的结论。</strong><br />!<img src="https://sxllp.github.io//post-images/1685172827161.png" alt="" loading="lazy"><br>
+2<br>
+3<img src="https://sxllp.github.io//post-images/1685173401536.png" alt="" loading="lazy"><br>
+3<img src="https://sxllp.github.io//post-images/1685173405594.png" alt="" loading="lazy">4<br>
+<img src="https://sxllp.github.io//post-images/1685173408990.png" alt="" loading="lazy"></p>
+<p><strong>防疫地图，商品价格涨跌宏图，六边形数据</strong><br>
+<a name="AZTVt"></a></p>
+<h3 id="3使用echarts实现数据可视化">3.使用echarts实现数据可视化</h3>
+<p>由百度开发，基于 JavaScript 的开源可视化图表库。</p>
+<p><a name="Tbt62"></a></p>
+<h4 id="如何使用">如何使用</h4>
+<p><a name="gkCpR"></a></p>
+<h5 id="准备工具">准备工具</h5>
+<p>vscode<br /><img src="https://sxllp.github.io//post-images/1685159119783.png" alt="" loading="lazy"><br>
+<a name="wXp1l"></a></p>
+<h5 id="准备插件">准备插件</h5>
+<p>中文<br>
+<img src="https://sxllp.github.io//post-images/1685159860974.png" alt="" loading="lazy"><br />浏览器预览<br>
+<img src="https://sxllp.github.io//post-images/1685159864469.png" alt="" loading="lazy"><br />自动填充标签<br>
+<img src="https://sxllp.github.io//post-images/1685159867365.png" alt="" loading="lazy"><br /><br>
+<a name="ixQsW"></a></p>
+<h5 id="前置知识">前置知识</h5>
+<p>1.html结构-div容器<br />2.css样式-已经集成在js文件中<br />3.js行为<br>
+<a name="a2CPF"></a></p>
+<h4 id="demo">demo</h4>
+<pre><code class="language-javascript">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;!--  --&gt;
+    &lt;style&gt;
+        /* 实现需要的样式与动画等等 */
+
+        #root{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+        }
+    &lt;/style&gt;
+&lt;!--  --&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!--  --&gt;
+    &lt;div id=&quot;root&quot;&gt;&lt;/div&gt;
+    &lt;!-- 储存绘制图像的容器 --&gt;
+    &lt;!--  --&gt;
+
+    &lt;script&gt;
+
+        /* 我们真正需要用心写的，只有js交互部分 */
+        let demo=document.querySelector('#root');
+       /*  demo.on('click',function(){
+            alert('点击事件触发');
+        }) */
+        demo.onclick=function(){
+            alert('666')
+        }
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p><a name="Jk7Xb"></a></p>
+<h4 id="最终任务">最终任务</h4>
+<p>使用echarts，实现一个简单的柱状图。<br /><br>
+<img src="https://sxllp.github.io//post-images/1685174205105.png" alt="" loading="lazy"><br>
+<br /><br />1.指定一个具有长宽的容器(div)<br />2.引入echarts.js文件<br />echarts.init('元素节点','主题')<br />3.初始化echarts实例<br />4.配置内容<br/><br>
+5.接收配置信息</p>
+<p><a name="yqVFA"></a></p>
+<h5 id=""></h5>
+<br /> 
+<h4 id="demo-2">demo</h4>
+<pre><code class="language-javascript">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;script src=&quot;./echarts-master/dist/echarts.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;./infographic.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;root&quot; style=&quot;height: 300px; width: 500px&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+      let myCharts = echarts.init(
+        document.querySelector(&quot;#root&quot;),
+        &quot;infographic&quot;
+      );
+      Option = {
+        xAxis: {
+          data: [&quot;Mon&quot;, &quot;Tue&quot;, &quot;Wed&quot;, &quot;Thu&quot;, &quot;Fri&quot;, &quot;Sat&quot;, &quot;Sun&quot;],
+          type: &quot;category&quot;, //类目轴
+        },
+        yAxis: {
+            name:'温度',
+          min: 0,
+          max: 40,
+          axisLabel: {
+            formatter: &quot;{value}°C&quot;,
+          },
+        },
+        legend: {},
+        series: [
+          {
+            data: [23, 24, 25, 16, 27, 28, 29, 30],
+            type: &quot;bar&quot;,
+            name: &quot;第十周&quot;,
+          },
+          {
+            data: [27, 25, 18, 27, 29, 31, 30],
+            type: &quot;bar&quot;,
+            name: &quot;第九周&quot;,
+          },
+        ],
+      };
+      myCharts.setOption(Option);
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ 计算机协会建站部讲座]]></title>
+        <id>https://sxllp.github.io/post/ji-suan-ji-xie-hui-jian-zhan-bu-jiang-zuo/</id>
+        <link href="https://sxllp.github.io/post/ji-suan-ji-xie-hui-jian-zhan-bu-jiang-zuo/">
+        </link>
+        <updated>2023-05-26T12:55:38.000Z</updated>
+        <content type="html"><![CDATA[<h3>讲座主题</h3>
+<p>echarts数据可视化的基本使用</p>
+<h3>内容概括</h3>
+<p>本次讲座将从数据可视的概念与使用说起，并粗略介绍前端三件套的基本使用，而后讲解echarts的基础知识，介绍其常用的图表类型及其配置方法。我们将以实际案例为主，演示如何使用echarts绘制漂亮的图表，并探讨如何根据需求自定义图表的样式和交互效果。<br>
+ECharts 是一个非常流行的开源可视化图表库，具有简单易用、功能丰富、配置灵活的特点。在本次讲座中，我们将首先从数据可视的概念和意义出发，介绍前端开发的基本知识，进而讲解 ECharts 的基本概念和使用方法。通过引入实际案例，我们将演示如何使用 ECharts 快速创建不同类型的图表，并探讨如何根据需求自定义图表的样式和交互效果。 这些案例将帮助学员熟悉 ECharts 的基本特性和 API 使用，同时进一步掌握数据可视化技术的实践思路。</p>
+<h2>主要内容</h2>
+<h4>1.什么是数据可视化？</h4>
+数据可视化是将大量数据呈现为图表、图形或其他易于理解、易于解释的可视化形式的过程。数据通常以数字、文本或图像的形式出现，并需要使用工具和技术将其转换为可视形式。
+通过将数据可视化，人们可以更容易地识别模式、趋势、异常或关系，从而更好地理解数据和做出决策。这种方式也可以减少数据分析的时间和成本。
+数据可视化的方法有很多，包括表格、条形图、折线图、散点图、热力图、地图、气泡图、漏斗图等。每种方法都有其适用性和优缺点。需要根据数据类型和目标受众选择最佳方法。
+<h4>2.数据可视化使用范围</h4>
+数据可视化的应用场景非常广泛，可以用于任何需要理解和解释数据的领域。
+商业分析，科学研究，医疗保健等多种领域，都可以利用数据可视化，对数据进行诠释，从而获得我们需要的结论。
+<p>防疫地图，商品价格涨跌宏图</p>
+<h3>3.使用echarts实现数据可视化</h3>
+<p>由百度开发，基于 JavaScript 的开源可视化图表库。</p>
+<h4>如何使用</h4>
+准备工具
+vscode
+<p>准备插件</p>
+<p>前置知识<br>
+1.html结构-div容器<br>
+2.css样式-已经集成在js文件中<br>
+3.js行为<br>
+demo</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!--  -->
+    <style>
+        /* 实现需要的样式与动画等等 */
+<pre><code>    #root{
+        width: 300px;
+        height: 300px;
+        background-color: aqua;
+    }
+&lt;/style&gt;
+</code></pre>
+<!--  -->
+</head>
+<body>
+    <!--  -->
+    <div id="root"></div>
+    <!-- 储存绘制图像的容器 -->
+    <!--  -->
+<pre><code>&lt;script&gt;
+
+    /* 我们真正需要用心写的，只有js交互部分 */
+    let demo=document.querySelector('#root');
+   /*  demo.on('click',function(){
+        alert('点击事件触发');
+    }) */
+    demo.onclick=function(){
+        alert('666')
+    }
+&lt;/script&gt;
+</code></pre>
+</body>
+</html>
+<h4>最终任务</h4>
+使用echarts，实现一个简单的柱状图。
+<p>1.指定一个具有长宽的容器(div)<br>
+2.引入echarts.js文件<br>
+echarts.init('元素节点','主题')<br>
+3.初始化echarts实例<br>
+4.配置内容</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于出现错误"connect ECONNREFUSED 127.0.0.1:443"的解决方法]]></title>
+        <id>https://sxllp.github.io/post/guan-yu-chu-xian-cuo-wu-connect-econnrefused-127001443de-jie-jue-fang-fa/</id>
+        <link href="https://sxllp.github.io/post/guan-yu-chu-xian-cuo-wu-connect-econnrefused-127001443de-jie-jue-fang-fa/">
+        </link>
+        <updated>2022-09-18T08:19:45.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://sxllp.github.io//post-images/1663489686228.jpg" alt="" loading="lazy"><br>
+CMD命令行ping github.com失败，得知是代理问题。</p>
+<p>我们寻找一个新的代理ip</p>
+<p>http://ping.chinaz.com/github.com<br>
+<img src="https://sxllp.github.io//post-images/1663489695854.jpg" alt="" loading="lazy"></p>
+<p>选择一个响应较快的IP，将其添加到host文件末尾</p>
+<p>C:\Windows\System32\drivers\etc</p>
+<figure data-type="image" tabindex="1"><img src="https://sxllp.github.io//post-images/1663489829221.png" alt="" loading="lazy"></figure>
+<p>再次连接，成功。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国社会各阶级的分析]]></title>
+        <id>https://sxllp.github.io/post/zhong-guo-she-hui-ge-jie-ji-de-fen-xi/</id>
+        <link href="https://sxllp.github.io/post/zhong-guo-she-hui-ge-jie-ji-de-fen-xi/">
+        </link>
+        <updated>2022-09-17T15:02:04.000Z</updated>
+        <content type="html"><![CDATA[<p>1925/12/1🀄️<br>
+当时党内存在两种倾向，第一种以陈独秀为代表，只注意同国民党合作，忘记了农民，这是右倾错误。第二种，一张国焘为代表，只代表工人运动，同样忘记了农民，这是右倾错误。这两种机会主义都感觉自己力量不足，而不知道到何处去寻找力量，到何处去取得广大的同盟军。毛泽东指出中国无产阶级的最广大和最忠实的同盟军是农民。</p>
+<h3>各阶级统计</h3>
+<h4>1.地主阶级和买办主义</h4>
+<p>在经济落后的半殖民地的中国，地主阶级和买办阶级完全是国际资产阶级的附庸，其生存和发展，是附属于帝国主义的。这些阶级代表中国最落后的和最反动的生产关系，阻碍中国生产力的发展。他们和中国革命的目的完全不相容。</p>
+<h4>2.中产阶级</h4>
+中产阶级。这个阶级代表中国城乡资本主义的生产关系。中产阶级主要是指民族资产阶级，他们对于中国革命具有矛盾的态度：他们在受外资打击、军阀压迫感觉痛苦时，需要革命，赞成反帝国主义反军阀的革命运动；但是当着革命在国内有本国无产阶级的勇猛参加，在国外有国际无产阶级的积极援助，对于其欲达到大资产阶级地位的阶级的发展感觉到威胁时，他们又怀疑革命。
+他们反对以阶级斗争学说解释国民党的民生主义，他们反对国民党联俄和容纳共产党⑷及左派分子。
+<h4>3.小资产阶级</h4>
+小资产阶级。如自耕农⑺，手工业主，小知识阶层——学生界、中小学教员、小员司、小事务员、小律师，小商人等都属于这一类。这一个阶级，在人数上，在阶级性上，都值得大大注意。自耕农和手工业主所经营的，都是小生产的经济。
+<h4>4.半无产阶级</h4>
+<p>半无产阶级。此处所谓半无产阶级，包含：（一）绝大部分半自耕农⑽，（二）贫农，（三）小手工业者，（四）店员⑾，（五）小贩等五种。绝大部分半自耕农和贫农是农村中一个数量极大的群众。</p>
+<h4>5.无产阶级</h4>
+工业无产阶级人数虽不多，却是中国新的生产力的代表者，是近代中国最进步的阶级，做了革命运动的领导力量。
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何实现b站弹幕不挡人物功能]]></title>
+        <id>https://sxllp.github.io/post/ru-he-shi-xian-b-zhan-dan-mu-bu-dang-ren-wu-gong-neng/</id>
+        <link href="https://sxllp.github.io/post/ru-he-shi-xian-b-zhan-dan-mu-bu-dang-ren-wu-gong-neng/">
+        </link>
+        <updated>2022-09-15T01:27:21.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p><img src="https://sxllp.github.io//post-images/1663220720979.png" alt="" loading="lazy"><br>
+原理与实现:<br>
+原理:CSS3的mask-image属性(遮罩属性)<br>
+mask-image:url();<br>
+值为图片的url，该属性的作用是将一张含有透明部分的图片，该图片的非透明部分不显示，透明部分至于dom元素前，成为遮罩。显示的是背景颜色而不是原图片的不透明部分。</p>
+<p>实现：<br>
+1.模拟弹幕情况<br>
+<img src="https://sxllp.github.io//post-images/1663221254279.png" alt="" loading="lazy"></p>
+<pre><code>&lt;div class=&quot;video&quot; style=&quot;width: 1920px; height: 1000px; position: relative;&quot;&gt;
+&lt;p class=&quot;top one&quot;&gt;这是第一句sentence&lt;/p&gt;
+&lt;p class=&quot;top two&quot; &gt;这是第二句sentence&lt;/p&gt;
+&lt;p class=&quot;top three&quot;&gt;这是第三句sentence&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+.top {
+font-size: 30px;
+top: 200px;
+position: absolute;
+}
+
+.one{
+right: 200px;
+}
+
+.two{
+right: 500px;
+top: 300px;
+}
+
+.three{
+
+right: 950px;
+}
+</code></pre>
+<p>2.覆盖遮罩图片<br>
+使用一张含透明图片,为p所在的父元素添加样式<br>
+<img src="https://sxllp.github.io//post-images/1663221315903.png" alt="" loading="lazy"></p>
+<pre><code>.video{
+
+-webkit-mask-image: url('background.png');
+-webkit-mask-size: 1900px 900px;
+background-color: brown;
+}
+</code></pre>
+<p>效果如下(设置了背景颜色为红棕色)<br>
+<img src="https://sxllp.github.io//post-images/1663221265157.png" alt="" loading="lazy"></p>
+<p>PS:<br>
+我们能看到，在css中我不是用的mask-image，而是-webkit-mask-image,那是因为浏览器的用户代理UA为：<br>
+User-Agent:<br>
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7271 SLBChan/103<br>
+内核是Chrome和Safari，需要加上-webkit-前缀进行适应。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://sxllp.github.io/post/hello-gridea/</id>
+        <link href="https://sxllp.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
